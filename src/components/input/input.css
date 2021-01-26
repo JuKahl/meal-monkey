@@ -9,8 +9,6 @@
   outline: none;
 }
 
-/* Funktioniert nicht */
-
-.input-name::placeholder {
+.input::placeholder {
   color: #b6b7b7;
 }

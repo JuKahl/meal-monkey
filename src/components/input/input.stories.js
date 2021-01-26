@@ -1,5 +1,6 @@
 import "./input.css";
-import inputForm from "./input.html";
+import emailForm from "./email.html";
+import passwordForm from "./password.html"
 
 
 export default {
@@ -7,5 +8,5 @@ export default {
   parameters: { layout: "centered" },
 };
 
-export const input = () => inputForm;
-
+export const email = () => emailForm;
+export const password = () => passwordForm;
