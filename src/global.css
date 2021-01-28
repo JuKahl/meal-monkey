@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+:root {
+  /* color */
+  --main-color: #fc6011;
+  --primary-font-color: #4a4b4d;
+  --placeholder-color: #b6b7b7;
+  --background-color: #f2f2f2;
+
+  /* fontstyle */
+  --headline: bold;
 }
 
 html {

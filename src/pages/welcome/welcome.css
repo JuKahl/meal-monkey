@@ -14,17 +14,17 @@
 }
 
 #headline {
-  color: #fc6011;
+  color: var(--main-color);
 }
 
 #headline2 {
-  color: #4a4b4d;
+  color: var(--primary-font-color);
   font-size: 10pt;
 }
 
 h1 {
-  font: bold;
-  color: #4a4b4d;
+  font: var(--headline);
+  color: var(--primary-font-color);
 }
 
 .welcome > * {
