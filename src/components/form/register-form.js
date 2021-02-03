@@ -15,16 +15,26 @@ const title = document.createElement ("h2");
 title.innerText = "Reset password";
 title.className = "form"
 
+const text = document.createElement ("p")
+text.innerText = "Please enter your email to receive a link to create a new password via email"
+text.className = "form"
+
 const button = document.createElement ("button");
 button.innerText = "Press here!";
-button.className = "btn";
+button.className = "btn btn-border";
+
+const input = document.createElement ("input")
+input.type = "text"
+input.placeholder = "email"
+
 
 function register () {
-    alert("Registered");
+    alert("Done!");
 }
-button.addEventListener("click", register)
+// button.addEventListener("click", register)
+button.onclick = register
 
-form.append(title, button);
+form.append(title, text, input, button);
 
 return form;
 }
