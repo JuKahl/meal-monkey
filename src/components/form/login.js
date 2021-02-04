@@ -11,7 +11,7 @@ function createPinInput() {
     className: "input",
     placeholder: "*",
     type: "password",
-    maxLenght: "1",
+    maxLength: "1",
   });
 
   return input;

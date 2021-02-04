@@ -9,3 +9,9 @@
   display: grid;
   grid-auto-flow: column;
 }
+
+.message {
+  display: inline-block;
+  line-height: 140%;
+  padding: 1em;
+}
